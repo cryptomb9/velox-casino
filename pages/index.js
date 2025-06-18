@@ -14,17 +14,15 @@ export default function Home() {
         </a>
         <a href="/flip" className="bg-white text-black p-6 rounded-2xl shadow hover:scale-105 transition">
           <h2 className="text-xl font-bold mb-2">Flip Game</h2>
-          <p>Flip the coin, take your chances — win or lose instantly!</p>
+          <p>Flip the coin, take your chances to win </p>
         </a>
       </div>
 
       <section className="bg-black bg-opacity-40 p-6 rounded-xl text-white">
         <h3 className="text-2xl font-semibold mb-2">🔥 How It Works</h3>
         <ul className="list-disc pl-5 space-y-2">
-          <li>Play games daily to earn Velox Points (VP).</li>
+          <li>Play games daily to double your MON or MB tokens (VP).</li>
           <li>Check your wallet and profile from the top-right menu.</li>
-          <li>Stay active — inactive wallets lose faucet access.</li>
-          <li>Leaderboard updates every 24 hours based on points won.</li>
         </ul>
       </section>
     </Layout>
