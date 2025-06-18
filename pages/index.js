@@ -22,7 +22,7 @@ export default function Home() {
         <h3 className="text-2xl font-semibold mb-2">🔥 How It Works</h3>
         <ul className="list-disc pl-5 space-y-2">
           <li>Play Flip daily to double your MON or MB tokens .</li>
-          <li>play click daily ro rake in points.</li>
+          <li>play click daily to rake in points.</li>
         </ul>
       </section>
     </Layout>
