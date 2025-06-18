@@ -21,8 +21,8 @@ export default function Home() {
       <section className="bg-black bg-opacity-40 p-6 rounded-xl text-white">
         <h3 className="text-2xl font-semibold mb-2">🔥 How It Works</h3>
         <ul className="list-disc pl-5 space-y-2">
-          <li>Play games daily to double your MON or MB tokens .</li>
-          <li>Check your wallet and profile from the top-right menu.</li>
+          <li>Play Flip daily to double your MON or MB tokens .</li>
+          <li>play click daily ro rake in points.</li>
         </ul>
       </section>
     </Layout>
