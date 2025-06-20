@@ -17,3 +17,21 @@ a {
 a:hover {
   color: white;
 }
+
+.button {
+  background-color: #2b0342;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 8px 20px; /* more horizontal padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+/* Fix: Remove space between .button and :hover */
+.button:hover {
+  transform: scale(1.05); /* slight enlarge */
+}

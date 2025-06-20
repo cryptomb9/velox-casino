@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Layout from "../components/layout";
 
 export default function Home() {
@@ -9,11 +8,11 @@ export default function Home() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
         <a href="/click" className="bg-white text-black p-6 rounded-2xl shadow hover:scale-105 transition">
-          <h2 className="text-xl font-bold mb-2">Click Game</h2>
+          <button className="button"><h2 className="text-xl font-bold mb-2">Click Game</h2></button>
           <p>Test your reflexes in this fast-paced clicking challenge.</p>
         </a>
         <a href="/flip" className="bg-white text-black p-6 rounded-2xl shadow hover:scale-105 transition">
-          <h2 className="text-xl font-bold mb-2">Flip Game</h2>
+          <button className="button"><h2 className="text-xl font-bold mb-2">Flip Game</h2></button>
           <p>Flip the coin, take your chances to win </p>
         </a>
       </div>
